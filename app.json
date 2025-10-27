@@ -1,29 +1,21 @@
 {
   "expo": {
-    "name": "motivation-app",
-    "slug": "snack-4088eaa2-d811-4215-81e3-ea753cf3445d",
+    "name": "Motivation App",
+    "slug": "motivation-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "package": "com.enginsebi.motivation"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
