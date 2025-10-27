@@ -16,6 +16,16 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "motivation-app-enginsebi"
+      }
+    }
   }
 }
