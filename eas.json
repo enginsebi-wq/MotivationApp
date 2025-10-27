@@ -1,17 +1,25 @@
 {
-  "cli": {
-    "version": ">= 3.0.0"
-  },
-  "build": {
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      }
+  "expo": {
+    "name": "Motivation App",
+    "slug": "motivation-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
-    "production": {
-      "android": {
-        "buildType": "app-bundle"
+    "android": {
+      "package": "com.enginsebi.motivation"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "sdkVersion": "54.0.0",
+    "platforms": ["ios", "android"],
+    "extra": {
+      "eas": {
+        "projectId": "motivation-app-enginsebi"
       }
     }
   }
