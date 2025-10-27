@@ -11,21 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "android": {
-      "package": "com.enginsebi.motivation"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "android": { "package": "com.enginsebi.motivation" },
+    "assetBundlePatterns": ["**/*"],
     "sdkVersion": "54.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "motivation-app-enginsebi"
-      }
-    }
+    "platforms": ["ios", "android"],
+    "extra": { "eas": { "projectId": "motivation-app-enginsebi" } }
   }
 }
